@@ -1,1 +1,149 @@
 
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WebXR</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-assets>
+            <img id="wood-NRM" src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_normal.jpg">
+            <img id="floor-NRM" src="assets/wood_floor/Wood_Floor_011_normal.jpg">
+            <img id="roof-NRM" src="assets/wood_roof/Old_Wood_002_normal.jpg">
+            <a-assets-item id="bed-model" src="assets/victorian_bed/scene.gltf"></a-assets-item>
+            <a-assets-item id="nightstand-model" src="assets/nightstand/scene.gltf"></a-assets-item>
+            <a-assets-item id="table-model" src="assets/wooden_table/scene.gltf"></a-assets-item>
+            <a-assets-item id="board-model" src="assets/chess_board/scene.gltf"></a-assets-item>
+            <a-assets-item id="armour-model-o" src="assets/the-parade-armour-of-king-erik-xiv-of-sweden/source/180212_Erik_XIV_Rustning_2/180212_Erik_XIV_Rustning_2.obj"></a-assets-item>
+            <a-assets-item id="armour-model-m" src="assets/the-parade-armour-of-king-erik-xiv-of-sweden/source/180212_Erik_XIV_Rustning_2/180212_Erik_XIV_Rustning_2.mtl"></a-assets-item>
+
+            
+
+        </a-assets>
+
+    
+    <a-plane 
+    position="0 0 -4" height="15" width="15" rotation="-90 0 0"
+    src="assets/wood_floor/Wood_Floor_011_basecolor.jpg"
+      normal-map="#floor-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="0 0 -19" height="15" width="15" rotation="-90 0 0"
+    src="assets/wood_floor/Wood_Floor_011_basecolor.jpg"
+      normal-map="#floor-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane
+    position="0 7.5 -26.5" height="15" width="15" rotation="0 0 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="-7.5 7.5 -4" height="15" width="15" rotation="0 90 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="-7.5 7.5 -19" height="15" width="15" rotation="0 90 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="7.5 7.5 -4" height="15" width="15" rotation="0 -90 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="7.5 7.5 -19" height="15" width="15" rotation="0 -90 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="0 0 -4" height="15" width="15" rotation="90 0 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane 
+    position="0 7.5 3.5" height="15" width="15" rotation="0 180 0" 
+    src="assets/wood_wall/Wood_Wall_002_SD/Wood_Wall_002_basecolor.jpg"
+      normal-map="#wood-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane position="0 15 -4" height="15" width="15" rotation="90 0 0" 
+    src="assets/wood_roof/Old_Wood_002_basecolor.jpg"
+    normal-map="#roof-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-plane position="0 15 -19" height="15" width="15" rotation="90 0 0" 
+    src="assets/wood_roof/Old_Wood_002_basecolor.jpg"
+    normal-map="#roof-NRM"
+      normal-texture-repeat="1 1"
+      normal-scale="1 -1"
+      roughness = 0.3
+    ></a-plane>
+
+    <a-entity>
+        <a-entity obj-model="obj: #armour-model-o; mtl: #armour-model-m;" scale="0.15 0.15 0.15"
+        position="6.5 0 -8.5"
+        rotation="-90 55 0"></a-entity>
+        
+        <a-entity gltf-model="#bed-model"
+        position="6.5 -3.1 2.4" rotation="0 90 0" scale="0.005 0.005 0.005"
+        ></a-entity>
+
+        <a-entity gltf-model="#nightstand-model" 
+        position="6 0 -25.5" scale="0.04 0.04 0.04"></a-entity>
+    </a-entity>
+
+    <a-entity gltf-model="#table-model"
+        position="-6 0.6 -15" scale="2 1.5 1"
+    ></a-entity>
+
+    <a-entity gltf-model="#board-model"
+        position="-6 1.4 -15" scale ="3 3 3"
+    ></a-entity>
+
+    </a-scene>
+    
+</body>
+</html>
+-->

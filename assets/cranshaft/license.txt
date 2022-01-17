@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cranshaft_Cross_Section_1
+* source:	https://sketchfab.com/3d-models/cranshaft-cross-section-1-dbcb3d14ae0d4deea8b7ad4baff38a10
+* author:	Vipmay (https://sketchfab.com/Vipmay)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cranshaft_Cross_Section_1" (https://sketchfab.com/3d-models/cranshaft-cross-section-1-dbcb3d14ae0d4deea8b7ad4baff38a10) by Vipmay (https://sketchfab.com/Vipmay) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

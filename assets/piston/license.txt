@@ -1,0 +1,11 @@
+Model Information:
+* title:	Piston and connecting rod
+* source:	https://sketchfab.com/3d-models/piston-and-connecting-rod-940d24ffb7864be898963391665fcc9f
+* author:	francobravo (https://sketchfab.com/francobravo)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Piston and connecting rod" (https://sketchfab.com/3d-models/piston-and-connecting-rod-940d24ffb7864be898963391665fcc9f) by francobravo (https://sketchfab.com/francobravo) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
